@@ -61,8 +61,6 @@ public class EmojiGallery extends Application {
         // 初始化表情图库数据库
 
         Log.d("Dai","InitEmoji");
-
-
         //获取共享参数保存的是否首次打开参数
         boolean isFirst = SharedUtil.getInstance(this).readBoolean("first",true);
         String directory =getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS).toString()+ File.separatorChar;

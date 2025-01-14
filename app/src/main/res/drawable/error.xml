@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/error_text.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFCDD2"/> <!-- 浅红色背景 -->
+            <corners android:radius="8dp"/> <!-- 圆角 -->
+        </shape>
+    </item>
+    <item>
+        <bitmap
+                android:src="@drawable/ic_error"
+                android:gravity="center" /> <!-- 居中的错误图标 -->
+    </item>
+</layer-list>
